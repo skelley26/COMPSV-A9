@@ -1,0 +1,7 @@
+Why is a graph the right structure to represent a social network?
+    Because there are no hierarchies when it comes to relationships on social media, a graph is best. It's more like a web than a tiered list, which works great for connecting friendships.
+Why wouldn’t a list or tree work as well for this?
+    A list is unordered and don't show the relations between things, and a tree has a direct hierarchy with a top node and the tree below it. There is no top node or name when it comes to social media, so a tree wouldn't work. And relationships are the crux of social media, so lists wouldn't work either.
+What performance or structural trade-offs did you notice when adding friends or printing the network?
+    I notice that when testing the code, there are a lot of steps involved in creating friendships. If you want to connect more than 2 people, you have to make a new command that connects them all. I feel like the performance takes a hit because of these extra commands as well, such is life with python garbage collection. 
+    As for Lists or Trees, the commands to add nodes is a bit more organized and optimized, but they cannot be used here so we have to cope.
